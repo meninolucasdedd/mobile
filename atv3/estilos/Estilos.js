@@ -27,5 +27,20 @@ export default StyleSheet.create({
         paddingLeft: 5,
         margin:15,
         fontSize:20
+    },
+    album:{
+        viewStyle:{
+            backgroundColor: '#442980',
+            justifyContent: 'center',
+            height: 60,
+            paddingTop: 15,
+            backgroundColor: '#F2F2F2',
+            shadowColor: '#000',
+            shadowOffset: {width:0, height: 2},
+            shadowOpacity: 0.2,
+        },
+        textStyle:{
+            fontSize: 20
+        }
     }
 })
